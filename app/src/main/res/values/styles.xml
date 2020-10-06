@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="font_bold" parent="Widget.AppCompat.TextView">
+        <item name="fontPath">fonts/roboto_bold.ttf</item>
+    </style>
+
+    <style name="font_regular" parent="Widget.AppCompat.TextView">
+        <item name="fontPath">fonts/roboto_regular.ttf</item>
+    </style>
+
+    <style name="font_light" parent="Widget.AppCompat.TextView">
+        <item name="fontPath">fonts/roboto_light.ttf</item>
+    </style>
+
+</resources>
