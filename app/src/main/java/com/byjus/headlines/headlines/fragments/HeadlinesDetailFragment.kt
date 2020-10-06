@@ -48,6 +48,7 @@ class HeadlinesDetailFragment : Fragment() {
                     .into(ivHeadLineImage)
             }
         }
+        ivBack.setOnClickListener { activity.let { it?.onBackPressed() } }
     }
 
 }
